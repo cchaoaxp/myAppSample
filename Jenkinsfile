@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Source') {
       steps {
-        git 'git@github.com:cchaoaxp/myAppSample.git'
+        git 'https://github.com/cchaoaxp/myAppSample.git'
       }
     }
 
